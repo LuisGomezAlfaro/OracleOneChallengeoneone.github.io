@@ -1,0 +1,47 @@
+
+<!doctype html>
+
+<html>
+    <html lang="en">
+
+<head>
+<meta charset="UFT-8">
+<link rel="stylesheet" href="reset.css">
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+
+
+</head>
+<body>l
+<header>
+   
+    <h1><img src="images/si.PNG"class="logo"></h1>
+
+</header>
+
+    <main>
+<section>
+<textarea type="text" class="input-text" cols="40" rows="6"  placeholder="Enter your text here"></textarea>
+<br>
+<h6>Do not enter capital letters or special characters </h6>
+<div>
+    <button type="button" onclick="btnencrypt()" class="button">Encrypt</button>
+    <button type="button" onclick="btndecrypt()" class="button"> Decrypt</button>
+</div>
+</section>
+<section>
+    <div id="place">
+    <textarea  id="output-text"  cols="18" rows="8"  placeholder=" " ></textarea>
+    </div>
+
+    <button type="button" onclick="copytext()" id="btn">Copy text</button>
+</section>
+    </main>
+
+</body>
+    <script src="script.js"></script>
+
+
+    </html>
