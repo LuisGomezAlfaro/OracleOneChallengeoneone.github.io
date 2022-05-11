@@ -41,7 +41,7 @@ main{
     width: 750px;
     height: 700px;
     margin-top: 5px;
-    
+    margin-left: 900px;
     
     border-radius: 35px 0px 35px 0px;
     -moz-border-radius: 35px 0px 35px 0px;
@@ -84,7 +84,7 @@ h6{
     background-color: #063254;
     display: block;
     margin-top: 15px;
-    
+    margin-left: 1230px;
     border-radius: 35px 0px 35px 0px;
     -moz-border-radius: 35px 0px 35px 0px;
     -webkit-border-radius: 35px 0px 35px 0px;
